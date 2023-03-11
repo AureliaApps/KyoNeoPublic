@@ -25,4 +25,6 @@ PB = Public Beta
 
 ## Reporting a Vulnerability
 
-Depending on the severity of the vulnerability, the report process is different, since Kyo isn't cloud based in nature, ___
+Depending on the severity of the vulnerability, the report process is different, since Kyo isn't cloud based in nature, and in the future when cloud-sync is enabled, it will be using CloudKit, which is an Apple service. For security vulnerabilities pertaining to CloudKit, please contact Apple directly for responsible disclosure.
+
+For any security concerns about Kyo (the app itself), you can open an issue on GitHub or [click here](https://github.com/AureliaApps/KyoNeoPublic/security/advisories/new). Please keep in mind these reports are public, so please keep the report professional and only include information necessary to your report.
