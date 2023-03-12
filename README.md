@@ -71,6 +71,8 @@ maybe even a release date/estimated release? :p
 | Planner | Yes | Yes | - |
 | Tasks | Yes | Coming Soon | - |
 
+### If you have an idea or want to see a feature implemented in Kyo, feel free to fill out a feature request in the Issues section on the repo, or click [here](https://github.com/AureliaApps/KyoNeoPublic/issues/new?assignees=Aeastr&labels=feature&template=feature_request.md&title=).
+
 ### All build and feature information, past and present are also available on the Kyo [craft.do](https://www.craft.do/s/JKxsip1wINrS1v).
 
 ## Current Version
