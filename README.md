@@ -67,7 +67,7 @@ maybe even a release date/estimated release? :p
 ## Roadmap
 | Feature | Planned? | Released? | Est Release |
 |---------|----------|-----------|-------------|
-| Today View | Yes | Yes | - |
+| Today View | Yes | Coming Soon | - |
 | Planner | Yes | Yes | - |
 | Tasks | Yes | Coming Soon | - |
 
