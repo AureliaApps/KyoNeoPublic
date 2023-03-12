@@ -58,7 +58,7 @@ Using the Tasks tool, you are able to map out and visualise your tasks and prior
 Kyo is written in fully native Swift and SwiftUI for iOS devices. This ensures the most optimal performance and a stable experience.
 
 ## Using Kyo
-You do things and stuff and things and more stuff even
+*This section is still currently in development and will be populated closer to full public release. Go to the Craft link below the Roadmap and Search for "Help (WIP), this will contain some information on how to use Kyo.*
 
 <!---
 Add features that are coming soon or already implemented,
@@ -74,19 +74,49 @@ maybe even a release date/estimated release? :p
 ### All build and feature information, past and present are also available on the Kyo [craft.do](https://www.craft.do/s/JKxsip1wINrS1v).
 
 ## Current Version
-**Public Beta: 16** \
-**Public Release: N/A**
+**Public Beta: 17** \
+**Public Release: N/A** \
+**For a changelog of older versions check out [CHANGELOG.md](https://github.com/AureliaApps/KyoNeoPublic/CHANGELOG.md)**
 
 <!-- When Public Release is out, have a separate ISSUES.md file for known issues past and present in beta, and public builds. -->
-### Known Issues:
-- nyoom
-- i'm a car
-- it doesn't work(?????)
+### ✨ New Features:
+- Settings
+    - Added general category
+        - Added My Info
+        - Added About
+    - Look & Feel
+        - Increase contrast now adds more contrast to backgrounds
+        - Added Tint Pages option
+            - Adds a small amount of colour behind main screens
+    - 'Delete all my data' has become reset Kyo
+        - Reset Kyo now brings up onboarding
+    - Added option 'Only countdown current day'
+- When resetting onboarding, it will also reset the welcome page
+- Changed underlying structure for views
+- Custom colours!
+- Added debug options to context menus
+- Recalculate timestamp
+- Added some underlying structure for localisation
+- Added some underlying structure for iOS 15
+- Added link for (currently unfinished) github page
+    - You'll be able notify me of issues here as well as other things
 
-### New Features:
-- washes your car
-- no longer causes a nuclear fusion reaction when editing a class
-- car
+### 🤓 Fixes:
+- Onboarding
+  - Possible fix for gesture issues in onboarding, please test!
+  - Fixed issue where welcome page might not show for new users
+  - Fixed buttons not changing state from `edit` -> `done`
+  - Fixed swiping still working while in edit mode
+- Fixed dark mode not behaving properly in some areas
+- Fixed an issue where the timestamp would not be updated when editing an entry, meaning it's position would not update correctly
+- All elements that are disabled now show dimmed
+
+### 💔 Known Issues:
+- Onboarding might still be buggy
+- The quarter sheet popup for creating/editing colours doesn't always animate correctly, and just snaps away
+- Sometimes when expanding an entry, some text can behave incorrect and appear incorrectly
+*Workaround: Disable `Only countdown current day`*
+- Padding can appear incorrectly on some screens
 
 ## Contact
 For feature requests, open a Feature Request in issues, or [click here](https://github.com/AureliaApps/KyoNeoPublic/issues/new?assignees=Aeastr&labels=feature&template=feature_request.md&title=).
@@ -96,6 +126,6 @@ For Bug Reports, open a Bug Report in issues, or [click here](https://github.com
 For Security concerns or vulnerabilities, please read [SECURITY.md](https://github.com/AureliaApps/KyoNeoPublic/SECURITY.md).
 
 ## Acknowledgments
-- this thing from [this place](example.com)
-- nyoom
-
+- Skye - [@rainyskye on GitHub](https://github.com/rainyskye)
+- Lily - [lilaac.xyz](http://lilaac.xyz)
+- Ethan Lipnik - [@EthanLipnik](https://twitter.com/EthanLipnik)
