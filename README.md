@@ -76,7 +76,7 @@ maybe even a release date/estimated release? :p
 ## Current Version
 **Public Beta: 17** \
 **Public Release: N/A** \
-**For a changelog of older versions check out [CHANGELOG.md](https://github.com/AureliaApps/KyoNeoPublic/CHANGELOG.md)**
+**For a changelog of older versions check out [CHANGELOG.md](https://github.com/AureliaApps/KyoNeoPublic/blob/main/CHANGELOG.md)**
 
 <!-- When Public Release is out, have a separate ISSUES.md file for known issues past and present in beta, and public builds. -->
 ### ✨ New Features:
@@ -123,7 +123,7 @@ For feature requests, open a Feature Request in issues, or [click here](https://
 
 For Bug Reports, open a Bug Report in issues, or [click here](https://github.com/AureliaApps/KyoNeoPublic/issues/new?assignees=Aeastr&labels=bug&template=bug_report.md&title=).
 
-For Security concerns or vulnerabilities, please read [SECURITY.md](https://github.com/AureliaApps/KyoNeoPublic/SECURITY.md).
+For Security concerns or vulnerabilities, please read [SECURITY.md](https://github.com/AureliaApps/KyoNeoPublic/blob/main/SECURITY.md).
 
 ## Acknowledgments
 - Skye - [@rainyskye on GitHub](https://github.com/rainyskye)
