@@ -76,49 +76,32 @@ maybe even a release date/estimated release? :p
 ### All build and feature information, past and present are also available on the Kyo [craft.do](https://www.craft.do/s/JKxsip1wINrS1v).
 
 ## Current Version
-**Public Beta: 17** \
+**Public Beta: 18** \
 **Public Release: N/A** \
 **For a changelog of older versions check out [CHANGELOG.md](https://github.com/AureliaApps/KyoNeoPublic/blob/main/CHANGELOG.md)**
 
 <!-- When Public Release is out, have a separate ISSUES.md file for known issues past and present in beta, and public builds. -->
 ### ✨ New Features:
-- Settings
-    - Added general category
-        - Added My Info
-        - Added About
-    - Look & Feel
-        - Increase contrast now adds more contrast to backgrounds
-        - Added Tint Pages option
-            - Adds a small amount of colour behind main screens
-    - 'Delete all my data' has become reset Kyo
-        - Reset Kyo now brings up onboarding
-    - Added option 'Only countdown current day'
-- When resetting onboarding, it will also reset the welcome page
-- Changed underlying structure for views
-- Custom colours!
-- Added debug options to context menus
-- Recalculate timestamp
-- Added some underlying structure for localisation
-- Added some underlying structure for iOS 15
-- Added link for (currently unfinished) github page
-    - You'll be able notify me of issues here as well as other things
+> iOS 15 Support is here!
+> Please note that you may run into more bugs on the iOS 15 build, iOS 16 users should be unaffected by these changes 
+
+- Added better support for users with just 1 week
+
+- Added new toggle in settings 'Automatically set day'. When set to on (default) the current day will automatically be set to todays date (if a corresponding day exists)
+
+- Added TimeSlot ID under debug inside context menus for entries 
+    
 
 ### 🤓 Fixes:
-- Onboarding
-  - Possible fix for gesture issues in onboarding, please test!
-  - Fixed issue where welcome page might not show for new users
-  - Fixed buttons not changing state from `edit` -> `done`
-  - Fixed swiping still working while in edit mode
-- Fixed dark mode not behaving properly in some areas
-- Fixed an issue where the timestamp would not be updated when editing an entry, meaning it's position would not update correctly
-- All elements that are disabled now show dimmed
+- Fixed issue when trying to create an entry a crash would occur
+- Fixed issue when trying to edit an entry a crash would occur
+- Fixed an issue where sometimes when expanding an entry, some text can behave incorrect and appear incorrectly
 
 ### 💔 Known Issues:
 - Onboarding might still be buggy
 - The quarter sheet popup for creating/editing colours doesn't always animate correctly, and just snaps away
-- Sometimes when expanding an entry, some text can behave incorrect and appear incorrectly
-*Workaround: Disable `Only countdown current day`*
-- Padding can appear incorrectly on some screens
+- In dark mode, deletable list items can have a minus symbol showing behind them
+- Creating weeks with very large numbers leads to a crash
 
 ## Contact
 For feature requests, open a Feature Request in issues, or [click here](https://github.com/AureliaApps/KyoNeoPublic/issues/new?assignees=Aeastr&labels=feature&template=feature_request.md&title=).
